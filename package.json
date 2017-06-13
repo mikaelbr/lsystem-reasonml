@@ -1,0 +1,19 @@
+{
+  "name": "l-system.re",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "bsb -make-world -w",
+    "build": "webpack -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bs-platform": "^1.7.4",
+    "webpack": "^2.6.1",
+    "webpack-livereload-plugin": "^0.11.0"
+  }
+}
